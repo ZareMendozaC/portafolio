@@ -183,3 +183,57 @@ footer .centrar{
 .mail p{
 	color: #53a7fb;
 }
+
+.galeria .sombra{
+		background-color: rgba(83,167,251,0.5);
+		height: 221.34px;
+		width: 100%;
+		position: cover;
+}
+
+.galeria .image3{
+	background: url(../img/3.jpg);
+	background-size: cover;
+	position: relative;
+	margin:0px auto;
+	padding:0px auto;
+}
+.galeria .image6{
+	background: url(../img/6.jpg);
+	background-size: cover;
+	position: relative;
+}
+.content-sombra
+{
+	margin: 0px auto;
+	padding-top: 20%;
+	text-align: center;
+}
+.content-sombra h3
+{
+	margin:0px auto;
+	padding: 0px;
+	color:white;
+}
+@media screen and (min-width: 1024px)
+{
+
+	.galeria .sombra{
+		display: none;
+	}
+	.galeria .image3{
+	background: url(../img/3.jpg);
+	background-size: cover;
+	position: relative;
+	margin:0px auto;
+	padding:0px auto;
+	height: 221.34px;
+	}
+	.galeria .image6{
+	background: url(../img/6.jpg);
+	background-size: cover;
+	position: relative;
+	height: 221.34px;
+	}
+	
+}
