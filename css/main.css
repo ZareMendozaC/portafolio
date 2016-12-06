@@ -3,6 +3,23 @@
 	box-sizing: border-box;
 }
 /* HEADER*/
+header .navegador
+{
+	z-index: 1;
+	position: absolute;
+	position: fixed;
+	width: 100%;
+	background: url(../img/header2.jpg);
+	height: 50px;
+	
+}
+.navbar-ex1-collapse ul{
+	background: rgba(64, 162, 240, 0.6);
+}
+header .row{
+	margin:0 auto;
+	padding: 0 auto;
+}
 header
 {
 	background: url(../img/header2.jpg);
@@ -49,7 +66,7 @@ header h5{
 	display: flex;
   	justify-content: center;
   	align-items: center;
-  	height: 440px;
+  	height: 600px;
 }
 .centrar{
 	margin: 0 auto;
@@ -235,5 +252,7 @@ footer .centrar{
 	position: relative;
 	height: 221.34px;
 	}
-	
+	.navbar-ex1-collapse ul{
+	background: none;
+}
 }
